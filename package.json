@@ -1,6 +1,6 @@
 {
   "name": "egg-socket.io-emitter",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "socket.io-emitter for egg",
   "eggPlugin": {
     "name": "socketIoEmitter",
@@ -14,10 +14,10 @@
     "egg-plugin"
   ],
   "dependencies": {
-    "socket.io-emitter": "^3.1.1"
+    "socket.io-emitter": "^3.1.1",
+    "@types/socket.io-emitter": "^3.1.0"
   },
   "devDependencies": {
-    "@types/socket.io-emitter": "^3.1.0",
     "autod": "^3.0.1",
     "autod-egg": "^1.1.0",
     "egg": "^2.16.0",
@@ -40,10 +40,8 @@
     "autod": "autod"
   },
   "files": [
-    "app.js",
-    "agent.js",
     "config",
-    "app",
+    "app.js",
     "index.d.ts"
   ],
   "ci": {
