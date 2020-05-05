@@ -40,23 +40,7 @@ exports.socketIoEmitter = {
 };
 ```
 
-## Configuration
-
-```js
-// {app_root}/config/config.default.js
-exports.socketIoEmitter = {
-};
-```
-
-see [config/config.default.js](config/config.default.js) for more detail.
-
-## Example
-
-<!-- example here -->
-
-## Questions & Suggestions
-
-Please open an issue [here](https://github.com/eggjs/egg/issues).
+[socket.io-emmiter](https://github.com/socketio/socket.io-emitter) for egg
 
 ## License
 

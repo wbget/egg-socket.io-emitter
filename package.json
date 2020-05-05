@@ -5,7 +5,6 @@
   "eggPlugin": {
     "name": "socketIoEmitter",
     "dependencies": [
-      "io",
       "redis"
     ]
   },
